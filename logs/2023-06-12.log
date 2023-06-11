@@ -1,0 +1,111 @@
+[38;5;8m2023-06-12 00:23:36[0m [I] [38;5;78;1mapp[0m apply plugin [38;5;78madapter-onebot[0m
+[38;5;8m2023-06-12 00:23:36[0m [W] [38;5;78;1mapp[0m SyntaxError: Invalid URL: 127.0.0.1:9093
+                            at initAsClient (D:\projects\bot\CloudsLetter_Bot\node_modules\ws\lib\websocket.js:675:13)
+                            at new WebSocket (D:\projects\bot\CloudsLetter_Bot\node_modules\ws\lib\websocket.js:85:7)
+                            at Quester.ws (D:\projects\bot\CloudsLetter_Bot\node_modules\@satorijs\satori\lib\index.js:107:10)
+                            at WsClient.prepare (D:\projects\bot\CloudsLetter_Bot\node_modules\@satorijs\adapter-onebot\lib\index.js:564:17)
+                            at reconnect (D:\projects\bot\CloudsLetter_Bot\node_modules\@satorijs\core\lib\index.cjs:280:35)
+                            at WsClient.start (D:\projects\bot\CloudsLetter_Bot\node_modules\@satorijs\core\lib\index.cjs:316:7)
+                            at OneBotBot.start (D:\projects\bot\CloudsLetter_Bot\node_modules\@satorijs\core\lib\index.cjs:192:56)
+                            at processTicksAndRejections (node:internal/process/task_queues:96:5)
+[38;5;8m2023-06-12 00:25:28[0m [I] [38;5;78;1mapp[0m [38;5;15;1mKoishi/4.13.2[0m
+[38;5;8m2023-06-12 00:25:29[0m [I] [38;5;78;1mapp[0m apply plugin [38;5;78mgroup:basic[0m
+[38;5;8m2023-06-12 00:25:29[0m [I] [38;5;78;1mapp[0m apply plugin [38;5;78mgroup:entry[0m
+[38;5;8m2023-06-12 00:25:29[0m [I] [38;5;78;1mapp[0m apply plugin [38;5;78mcommands[0m
+[38;5;8m2023-06-12 00:25:29[0m [I] [38;5;78;1mapp[0m apply plugin [38;5;78mhelp[0m
+[38;5;8m2023-06-12 00:25:29[0m [I] [38;5;78;1mapp[0m apply plugin [38;5;78mlocales[0m
+[38;5;8m2023-06-12 00:25:29[0m [I] [38;5;78;1mapp[0m apply plugin [38;5;78mrate-limit[0m
+[38;5;8m2023-06-12 00:25:29[0m [I] [38;5;78;1mapp[0m apply plugin [38;5;78mgroup:console[0m
+[38;5;8m2023-06-12 00:25:29[0m [I] [38;5;78;1mapp[0m apply plugin [38;5;78mconfig[0m
+[38;5;8m2023-06-12 00:25:29[0m [I] [38;5;78;1mapp[0m apply plugin [38;5;78manalytics[0m
+[38;5;8m2023-06-12 00:25:29[0m [I] [38;5;78;1mapp[0m apply plugin [38;5;78mdataview[0m
+[38;5;8m2023-06-12 00:25:29[0m [I] [38;5;78;1mapp[0m apply plugin [38;5;78mconsole[0m
+[38;5;8m2023-06-12 00:25:29[0m [I] [38;5;78;1mapp[0m apply plugin [38;5;78mexplorer[0m
+[38;5;8m2023-06-12 00:25:29[0m [I] [38;5;78;1mapp[0m apply plugin [38;5;78mlogger[0m
+[38;5;8m2023-06-12 00:25:29[0m [I] [38;5;78;1mapp[0m apply plugin [38;5;78mmarket[0m
+[38;5;8m2023-06-12 00:25:29[0m [I] [38;5;78;1mapp[0m apply plugin [38;5;78minsight[0m
+[38;5;8m2023-06-12 00:25:29[0m [I] [38;5;78;1mapp[0m apply plugin [38;5;78msandbox[0m
+[38;5;8m2023-06-12 00:25:29[0m [I] [38;5;78;1mapp[0m apply plugin [38;5;78mstatus[0m
+[38;5;8m2023-06-12 00:25:29[0m [I] [38;5;78;1mapp[0m apply plugin [38;5;78mgroup:storage[0m
+[38;5;8m2023-06-12 00:25:29[0m [I] [38;5;78;1mapp[0m apply plugin [38;5;78massets-local[0m
+[38;5;8m2023-06-12 00:25:29[0m [I] [38;5;78;1mapp[0m apply plugin [38;5;78mdatabase-sqlite[0m
+[38;5;8m2023-06-12 00:25:29[0m [I] [38;5;78;1mapp[0m apply plugin [38;5;78mgroup:adapter[0m
+[38;5;8m2023-06-12 00:25:29[0m [I] [38;5;78;1mapp[0m apply plugin [38;5;78mtheme-vanilla[0m
+[38;5;8m2023-06-12 00:25:29[0m [I] [38;5;78;1mapp[0m apply plugin [38;5;78madapter-onebot[0m
+[38;5;8m2023-06-12 00:25:29[0m [I] [38;5;78;1mapp[0m apply plugin [38;5;78mgocqhttp[0m
+[38;5;8m2023-06-12 00:25:29[0m [I] [38;5;204;1massets[0m missing config "selfUrl", fallback to "file:" scheme
+[38;5;8m2023-06-12 00:25:29[0m [I] [38;5;78;1mapp[0m server listening at [38;5;78mhttp://127.0.0.1:5140[0m
+[38;5;8m2023-06-12 00:25:29[0m [W] [38;5;78;1mapp[0m SyntaxError: Invalid URL: 127.0.0.1:9093
+                            at initAsClient (D:\projects\bot\CloudsLetter_Bot\node_modules\ws\lib\websocket.js:675:13)
+                            at new WebSocket (D:\projects\bot\CloudsLetter_Bot\node_modules\ws\lib\websocket.js:85:7)
+                            at Quester.ws (D:\projects\bot\CloudsLetter_Bot\node_modules\@satorijs\satori\lib\index.js:107:10)
+                            at WsClient.prepare (D:\projects\bot\CloudsLetter_Bot\node_modules\@satorijs\adapter-onebot\lib\index.js:564:17)
+                            at reconnect (D:\projects\bot\CloudsLetter_Bot\node_modules\@satorijs\core\lib\index.cjs:280:35)
+                            at WsClient.start (D:\projects\bot\CloudsLetter_Bot\node_modules\@satorijs\core\lib\index.cjs:316:7)
+                            at OneBotBot.start (D:\projects\bot\CloudsLetter_Bot\node_modules\@satorijs\core\lib\index.cjs:192:56)
+                            at processTicksAndRejections (node:internal/process/task_queues:96:5)
+                            at async Promise.all (index 19)
+                            at async Lifecycle.flush (D:\projects\bot\CloudsLetter_Bot\node_modules\cordis\lib\index.cjs:77:7)
+[38;5;8m2023-06-12 00:26:05[0m [I] [38;5;78;1mapp[0m [38;5;15;1mKoishi/4.13.2[0m
+[38;5;8m2023-06-12 00:26:05[0m [I] [38;5;78;1mapp[0m apply plugin [38;5;78mgroup:entry[0m
+[38;5;8m2023-06-12 00:26:05[0m [I] [38;5;78;1mapp[0m apply plugin [38;5;78mgroup:basic[0m
+[38;5;8m2023-06-12 00:26:05[0m [I] [38;5;78;1mapp[0m apply plugin [38;5;78mcommands[0m
+[38;5;8m2023-06-12 00:26:05[0m [I] [38;5;78;1mapp[0m apply plugin [38;5;78mhelp[0m
+[38;5;8m2023-06-12 00:26:05[0m [I] [38;5;78;1mapp[0m apply plugin [38;5;78mlocales[0m
+[38;5;8m2023-06-12 00:26:05[0m [I] [38;5;78;1mapp[0m apply plugin [38;5;78mrate-limit[0m
+[38;5;8m2023-06-12 00:26:05[0m [I] [38;5;78;1mapp[0m apply plugin [38;5;78mgroup:console[0m
+[38;5;8m2023-06-12 00:26:05[0m [I] [38;5;78;1mapp[0m apply plugin [38;5;78manalytics[0m
+[38;5;8m2023-06-12 00:26:05[0m [I] [38;5;78;1mapp[0m apply plugin [38;5;78mconfig[0m
+[38;5;8m2023-06-12 00:26:05[0m [I] [38;5;78;1mapp[0m apply plugin [38;5;78mconsole[0m
+[38;5;8m2023-06-12 00:26:05[0m [I] [38;5;78;1mapp[0m apply plugin [38;5;78mdataview[0m
+[38;5;8m2023-06-12 00:26:05[0m [I] [38;5;78;1mapp[0m apply plugin [38;5;78mlogger[0m
+[38;5;8m2023-06-12 00:26:05[0m [I] [38;5;78;1mapp[0m apply plugin [38;5;78mexplorer[0m
+[38;5;8m2023-06-12 00:26:05[0m [I] [38;5;78;1mapp[0m apply plugin [38;5;78minsight[0m
+[38;5;8m2023-06-12 00:26:05[0m [I] [38;5;78;1mapp[0m apply plugin [38;5;78mmarket[0m
+[38;5;8m2023-06-12 00:26:05[0m [I] [38;5;78;1mapp[0m apply plugin [38;5;78msandbox[0m
+[38;5;8m2023-06-12 00:26:05[0m [I] [38;5;78;1mapp[0m apply plugin [38;5;78mstatus[0m
+[38;5;8m2023-06-12 00:26:05[0m [I] [38;5;78;1mapp[0m apply plugin [38;5;78mtheme-vanilla[0m
+[38;5;8m2023-06-12 00:26:05[0m [I] [38;5;78;1mapp[0m apply plugin [38;5;78mgroup:storage[0m
+[38;5;8m2023-06-12 00:26:05[0m [I] [38;5;78;1mapp[0m apply plugin [38;5;78mdatabase-sqlite[0m
+[38;5;8m2023-06-12 00:26:05[0m [I] [38;5;78;1mapp[0m apply plugin [38;5;78massets-local[0m
+[38;5;8m2023-06-12 00:26:05[0m [I] [38;5;78;1mapp[0m apply plugin [38;5;78mgroup:adapter[0m
+[38;5;8m2023-06-12 00:26:05[0m [I] [38;5;78;1mapp[0m apply plugin [38;5;78mgocqhttp[0m
+[38;5;8m2023-06-12 00:26:05[0m [I] [38;5;78;1mapp[0m apply plugin [38;5;78madapter-onebot[0m
+[38;5;8m2023-06-12 00:26:05[0m [I] [38;5;78;1mapp[0m server listening at [38;5;78mhttp://127.0.0.1:5140[0m
+[38;5;8m2023-06-12 00:26:05[0m [I] [38;5;204;1massets[0m missing config "selfUrl", fallback to "file:" scheme
+[38;5;8m2023-06-12 00:26:05[0m [W] [38;5;78;1mapp[0m SyntaxError: The URL's protocol must be one of "ws:", "wss:", or "ws+unix:"
+                            at initAsClient (D:\projects\bot\CloudsLetter_Bot\node_modules\ws\lib\websocket.js:695:17)
+                            at new WebSocket (D:\projects\bot\CloudsLetter_Bot\node_modules\ws\lib\websocket.js:85:7)
+                            at Quester.ws (D:\projects\bot\CloudsLetter_Bot\node_modules\@satorijs\satori\lib\index.js:107:10)
+                            at WsClient.prepare (D:\projects\bot\CloudsLetter_Bot\node_modules\@satorijs\adapter-onebot\lib\index.js:564:17)
+                            at reconnect (D:\projects\bot\CloudsLetter_Bot\node_modules\@satorijs\core\lib\index.cjs:280:35)
+                            at WsClient.start (D:\projects\bot\CloudsLetter_Bot\node_modules\@satorijs\core\lib\index.cjs:316:7)
+                            at OneBotBot.start (D:\projects\bot\CloudsLetter_Bot\node_modules\@satorijs\core\lib\index.cjs:192:56)
+                            at processTicksAndRejections (node:internal/process/task_queues:96:5)
+                            at async Promise.all (index 19)
+                            at async Lifecycle.flush (D:\projects\bot\CloudsLetter_Bot\node_modules\cordis\lib\index.cjs:77:7)
+[38;5;8m2023-06-12 00:26:51[0m [I] [38;5;78;1mapp[0m unload plugin [38;5;78madapter-onebot[0m
+[38;5;8m2023-06-12 00:26:53[0m [I] [38;5;78;1mapp[0m apply plugin [38;5;78madapter-onebot[0m
+[38;5;8m2023-06-12 00:26:53[0m [W] [38;5;78;1mapp[0m SyntaxError: Invalid URL: 127.0.0.1:9093
+                            at initAsClient (D:\projects\bot\CloudsLetter_Bot\node_modules\ws\lib\websocket.js:675:13)
+                            at new WebSocket (D:\projects\bot\CloudsLetter_Bot\node_modules\ws\lib\websocket.js:85:7)
+                            at Quester.ws (D:\projects\bot\CloudsLetter_Bot\node_modules\@satorijs\satori\lib\index.js:107:10)
+                            at WsClient.prepare (D:\projects\bot\CloudsLetter_Bot\node_modules\@satorijs\adapter-onebot\lib\index.js:564:17)
+                            at reconnect (D:\projects\bot\CloudsLetter_Bot\node_modules\@satorijs\core\lib\index.cjs:280:35)
+                            at WsClient.start (D:\projects\bot\CloudsLetter_Bot\node_modules\@satorijs\core\lib\index.cjs:316:7)
+                            at OneBotBot.start (D:\projects\bot\CloudsLetter_Bot\node_modules\@satorijs\core\lib\index.cjs:192:56)
+                            at processTicksAndRejections (node:internal/process/task_queues:96:5)
+[38;5;8m2023-06-12 00:27:09[0m [I] [38;5;78;1mapp[0m unload plugin [38;5;78madapter-onebot[0m
+[38;5;8m2023-06-12 00:27:10[0m [I] [38;5;78;1mapp[0m apply plugin [38;5;78madapter-onebot[0m
+[38;5;8m2023-06-12 00:27:10[0m [W] [38;5;78;1mapp[0m SyntaxError: The URL's protocol must be one of "ws:", "wss:", or "ws+unix:"
+                            at initAsClient (D:\projects\bot\CloudsLetter_Bot\node_modules\ws\lib\websocket.js:695:17)
+                            at new WebSocket (D:\projects\bot\CloudsLetter_Bot\node_modules\ws\lib\websocket.js:85:7)
+                            at Quester.ws (D:\projects\bot\CloudsLetter_Bot\node_modules\@satorijs\satori\lib\index.js:107:10)
+                            at WsClient.prepare (D:\projects\bot\CloudsLetter_Bot\node_modules\@satorijs\adapter-onebot\lib\index.js:564:17)
+                            at reconnect (D:\projects\bot\CloudsLetter_Bot\node_modules\@satorijs\core\lib\index.cjs:280:35)
+                            at WsClient.start (D:\projects\bot\CloudsLetter_Bot\node_modules\@satorijs\core\lib\index.cjs:316:7)
+                            at OneBotBot.start (D:\projects\bot\CloudsLetter_Bot\node_modules\@satorijs\core\lib\index.cjs:192:56)
+                            at processTicksAndRejections (node:internal/process/task_queues:96:5)
+[38;5;8m2023-06-12 00:27:20[0m [I] [38;5;78;1mapp[0m unload plugin [38;5;78madapter-onebot[0m
+[38;5;8m2023-06-12 00:27:20[0m [I] [38;5;78;1mapp[0m apply plugin [38;5;78madapter-onebot[0m
+[38;5;8m2023-06-12 00:27:20[0m [I] [38;5;214;1madapter[0m connect to server: [38;5;214mws:127.0.0.1:9093[0m
