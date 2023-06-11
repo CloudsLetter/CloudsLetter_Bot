@@ -1,14 +1,10 @@
-FROM --platform=$BUILDPLATFORM alpine
-ARG LINK
-ARG TARGETPLATFORM
-COPY ./setup.sh /setup.sh
-RUN /setup.sh
 
 FROM node:lts-alpine
-COPY --from=0 /boilerplate.zip /boilerplate.zip
+WORKDIR "/koishi"
+ADD ./ /koishi
 COPY ./entrypoint.sh /
 RUN apk add --no-cache chromium nss freetype harfbuzz ca-certificates ttf-freefont font-noto-cjk
-VOLUME ["/koishi"]
-WORKDIR "/koishi"
-ENTRYPOINT ["/entrypoint.sh"]
+RUN npm install -g yarn
+RUN yarn
+VOLUME ["/koishi/data"]
 CMD ["yarn", "start"]
